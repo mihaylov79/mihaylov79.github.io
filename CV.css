@@ -121,5 +121,9 @@ summary:hover {
     display: block;
   }
 
+  footer h3 , p{
+    color: #3E77B6;
+  }
+
 }
 
