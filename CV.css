@@ -48,11 +48,39 @@ body{
 
 }
 
-h1{
+h1 {
   color: #3E77B6;
     text-align: right;
     padding: 1em;
+}
 
+header {
+  position: relative;
+}
+
+h4 a {
+  display: block;
+  aspect-ratio: 1 / 1;
+  text-decoration: none;
+  color: #3E77B6;
+  padding:  0.5em;
+  border-radius: 50%;
+  background: #F4F2F3;
+
+}
+
+header > h4 {
+  text-align: right;
+  position: absolute;
+  right: 1%;
+  bottom: 2%;
+
+
+}
+
+h4 a:hover {
+  background: #3E77B6;
+  color: #fff;
 }
 
 header{
@@ -121,6 +149,7 @@ summary:hover {
 
   details {
     font-size: medium;
+    /*flex: 1 1 100%;*/
   }
 
   footer{
