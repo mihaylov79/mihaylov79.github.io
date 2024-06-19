@@ -19,18 +19,9 @@ body{
 
 .info section,
 .contactz section{
-  display: flex;
   flex-wrap: wrap;
 
 }
-
-.details{
-  display: flex;
-  flex: 1 1 auto;
-
-}
-
-
 
 .contactz{
   align-items: start;
@@ -95,7 +86,8 @@ header{
 
 }
 
-details{
+.details, details{
+    display: flex;
     flex: 1 1 auto;
     padding: 2em;
     margin-top: 2em;
@@ -147,10 +139,6 @@ summary:hover {
     display: none;
   }
 
-  details {
-    font-size: small;
-    /*flex: 1 1 100%;*/
-  }
 
   footer{
     display: block;
