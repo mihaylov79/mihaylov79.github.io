@@ -85,9 +85,12 @@ header{
     margin: auto;
 
 }
+.details {
+    display:flex;
+}
 
-.details, details{
-    display: flex;
+details{
+    display:flex
     flex: 1 1 auto;
     padding: 2em;
     margin-top: 2em;
